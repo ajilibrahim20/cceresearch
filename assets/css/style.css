@@ -269,12 +269,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00008B;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{position: relative;}
 .single-about-img:before {
     position:  absolute;
     content: " ";
     top: 0;
-    left:  0;
+    left: 0;
     width: 109%;
     height:  100%;
    
@@ -282,8 +282,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00008B;}
     
 }
 .single-about-img img {
-    max-width: 500px;
-    height: 468px;
+    width: 300px;
+    height: 300px;
+    left: 50%;
+   padding: 15px;
 }
 .about-list-icon{
     display: flex;
